@@ -1,0 +1,41 @@
+{
+  "name": "random-image-generator-twitterbot",
+  "version": "0.0.1",
+  "description": "Tweet a random image using node-canvas.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "twit": "^2.2.5",
+    "express": "^4.15.2",
+    "canvas": "^2.0.0-alpha.5",
+    "get-google-fonts": "^1.1.1",
+    "glitch-canvas": "^1.1.0",
+    "gifencoder": "^1.1.0",
+    "pngjs": "^3.3.2",
+    "underscore": "^1.8.3",
+    "color-scheme": "^1.0.1",
+    "mastodon": "^1.2.2",
+    "roughjs": "^2.2.4",
+    "poisson-disc-sampler": "^1.1.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": ""
+  },
+  "keywords": [
+    "node",
+    "gomix",
+    "hyperdev",
+    "twitter",
+    "twitterbot",
+    "mastodon",
+    "mastobot",
+    "fediverse",
+    "bot",
+    "canvas"
+  ]
+}
